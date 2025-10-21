@@ -1,12 +1,21 @@
-# React + Vite
+.env
+VITE_API_BASE_URL=http://localhost:3000/api/v1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+server/.env
+PORT=3000
 
-Currently, two official plugins are available:
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=
+DB_PORT=3306
+DB_NAME=videobelajar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+JWT_SECRET=
 
-## Expanding the ESLint configuration
+SMTP_HOST=
+SMTP_PORT=587
+SMTP_USER=
+SMTP_PASS=
+MAIL_FROM="Videobelajar <no-reply@videobelajar.local>"
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+APP_BASE_URL=http://localhost:3000
